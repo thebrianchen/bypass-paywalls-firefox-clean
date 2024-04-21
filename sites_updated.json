@@ -1,0 +1,54 @@
+{
+  "Agefi.fr": {
+    "domain": "agefi.fr",
+    "allow_cookies": 1,
+    "useragent": "googlebot",
+    "upd_version": "3.7.5.6"
+  },
+  "AutoHebdo.fr": {
+    "domain": "autohebdo.fr",
+    "allow_cookies": 1,
+    "ld_json_url": "div.box-info.yellow|div.editor|1",
+    "upd_version": "3.7.5.2"
+  },
+  "Foreign Policy": {
+    "domain": "foreignpolicy.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.piano\\.io\\/xbuilder\\/experience\\/execute|cdn\\.cxense\\.com\\/)",
+    "cs_dompurify": 1,
+    "upd_version": "3.7.6.6"
+  },
+  "Réforme.net": {
+    "domain": "reforme.net",
+    "allow_cookies": 1,
+    "ld_json_url": "div.elementor-widget-theme-post-content section|div.elementor-widget-theme-post-content",
+    "upd_version": "3.7.6.6"
+  },
+  "Revista Oeste": {
+    "domain": "revistaoeste.com",
+    "allow_cookies": 1,
+    "block_js_inline": "\\/revistaoeste\\.com\\/revista\\/",
+    "block_regex": "\\/revistaoeste\\.com\\/wp-content\\/.+\\/js\\/app\\..+\\.js",
+    "cs_code": "[{\"cond\":\"div.loading_content\", \"rm_attrib\":\"class\"}]",
+    "upd_version": "3.7.6.2"
+  },
+  "Tech in Asia": {
+    "domain": "techinasia.com",
+    "allow_cookies": 1,
+    "useragent": "facebookbot",
+    "cs_dompurify": 1,
+    "upd_version": "3.7.6.7"
+  },
+  "The Irish News": {
+    "domain": "irishnews.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.irishnews\\.com\\/arc\\/subs\\/p\\.min\\.js",
+    "upd_version": "3.7.6.8"
+  },
+  "Times Higher Education": {
+    "domain": "timeshighereducation.com",
+    "allow_cookies": 1,
+    "block_js_inline": "\\.timeshighereducation\\.com\\/((books|features|news|people)\\/|.+((\\w)+(\\-)+){3,})",
+    "upd_version": "3.7.5.1"
+  }
+}
